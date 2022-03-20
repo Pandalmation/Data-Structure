@@ -1,0 +1,15 @@
+1. Insert a new item at the beginning of the array
+O(n)
+requires a for loop since to insert an element in arr[0], all n elements need to be shifted to the right. n = number of elements in the array
+
+2. Insert a new item at the end of the array
+O(1)
+we can directly place the element at the back of the array
+
+3. Delete an item at the beginning of the array
+O(n)
+Also requires a loop. After deleting an item at the start of the array, the rest of the elements needs to get shifted over to fill in the empty space
+
+4. Delete an item at the end of the array
+O(1)
+we can directly delete the element since it's at the last index where no shifting is required (the array size can just be reduced by 1).
